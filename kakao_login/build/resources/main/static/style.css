@@ -1,0 +1,94 @@
+/* 1. 기본 배경 및 전체 레이아웃 */
+body {
+    font-family: 'Malgun Gothic', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+/* 2. 중앙 하얀색 카드 상자 디자인 */
+.login-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    text-align: center;
+    width: 360px;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+/* 3. 카카오 로그인 버튼 디자인 */
+.kakao-login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEE500;
+    color: #191919;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.kakao-login-btn:hover {
+    background-color: #E6CF00;
+}
+
+/* 🔥 중요: 말풍선 크기를 줄여주는 핵심 코드! */
+.kakao-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+/* 4. 회원가입 링크 디자인 */
+.signup-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+}
+.signup-link:hover {
+    color: #222;
+    border-color: #222;
+}
+
+/* 5. 로그아웃 버튼 디자인 */
+.logout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+.logout-btn:hover {
+    background-color: #c0392b;
+}

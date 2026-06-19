@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인 성공!</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<div class="login-card">
+    <div style="font-size: 48px; margin-bottom: 10px;">🎉</div>
+    <h2>로그인 성공!</h2>
+    <p>funfunweb 서비스에 오신 것을 환영합니다.</p>
+
+    <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 24px; text-align: left;">
+        <span style="font-size: 13px; color: #888; display: block; margin-bottom: 4px;">접속 계정</span>
+        <strong th:text="${nickname}" style="font-size: 18px; color: #222;">사용자</strong>님
+    </div>
+
+    <a th:href="@{/logout}" class="logout-btn">로그아웃하고 메인으로</a>
+</div>
+
+</body>
+</html>
